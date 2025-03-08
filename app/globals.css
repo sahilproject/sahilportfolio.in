@@ -1,26 +1,44 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+.nav-links {
+    color: #ffffff;
+    position: relative;
+    text-decoration: none;
+};
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+.nav-links::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; 
+    background-color: #ffb624;
+    transition: width 0.3s ease-in-out;
+};
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+.nav-links:hover::after {
+    color: skyblue;
+    width: 100%;
+};
+
+.text-bg{
+    background-image: linear-gradient(to right , #ffffff 0%,#6539bc 100%  );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+};
+.bg-heading {
+    text-align: center;
+    border-radius: 30px;
+    padding: 7px 40px;
+    background: linear-gradient(to left, #1dc3fa 0%, #f76fb3 100%);
+}
+@keyframes slide {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .animate-slide {
+    animation: slide 1s infinite;
+  }
