@@ -30,7 +30,7 @@
 };
 .bg-heading {
     text-align: center;
-    border-radius: 30px;
+    border-radius: 15px 0px 15px 0px;
     padding: 7px 40px;
     background: linear-gradient(to left, #1dc3fa 0%, #f76fb3 100%);
 }

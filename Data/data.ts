@@ -73,43 +73,52 @@ export const servicesInfo = [
 export const projectsInfo = [
   {
     id: 1,
-    image: "/images/p1.webp",
+    image: "/images/p-1.png",
     url: "https://aquamarine-stardust-ef5057.netlify.app/",
+    name:"ACE2KING"
   },
+  
   {
     id: 2,
-    image: "/images/p2.webp",
-    url: "",
+    image: "/images/adda.png",
+    url: "https://addacafe.netlify.app/",
+    name:"Adda"
   },
   {
     id: 3,
-    image: "/images/p3.webp",
-    url: "",
+    image: "/images/weather.png",
+    url: "https://weatherapppc.netlify.app/",
+    name:"AboHaoua"
   },
   {
     id: 4,
     image: "/images/p4.webp",
     url: "",
+    name:"Demo"
   },
   {
     id: 5,
     image: "/images/p5.webp",
     url: "",
+    name:"Demo"
   },
   {
     id: 6,
     image: "/images/p6.webp",
     url: "",
+    name:"Demo"
   },
   {
     id: 7,
     image: "/images/p7.webp",
     url: "",
+    name:"Demo"
   },
   {
     id: 8,
     image: "/images/p8.webp",
     url: "",
+     name:"Demo"
   },
 ];
 
@@ -122,57 +131,57 @@ export const skills=[
   },
   {
     id:2,
-    title:"Css",
-    image:"/images/css.svg",
-    percent:"90%"
+    title:"Next js",
+    image:"/images/Next.js.svg",
+    percent:"60%"
   },
   {
     id:3,
     title:"Js",
     image:"/images/js.svg",
-    percent:"90%"
+    percent:"85%"
   },
   {
     id:4,
-    title:"HTML",
-    image:"/images/html.svg",
-    percent:"90%"
+    title:"React Bootstrap",
+    image:"/images/r-bootstrap.svg",
+    percent:"85%"
   },
   {
     id:5,
-    title:"Firebase",
-    image:"/images/firebase.svg",
+    title:"Material UI",
+    image:"/images/mui.png",
     percent:"90%"
   },
   {
     id:6,
-    title:"Mongo Db",
-    image:"/images/mongo.svg",
-    percent:"90%"
+    title:"Supabase",
+    image:"/images/supabase.jpg",
+    percent:"60%"
   },
   {
     id:7,
-    title:"Node js",
-    image:"/images/node.svg",
-    percent:"90%"
+    title:"HTML",
+    image:"/images/html.svg",
+    percent:"80%"
   },
   {
     id:8,
-    title:"Python",
-    image:"/images/python.svg",
-    percent:"90%"
+    title:"CSS",
+    image:"/images/css.svg",
+    percent:"80%"
   },
   {
     id:9,
     title:"TS",
     image:"/images/ts.svg",
-    percent:"90%"
+    percent:"60%"
   },
   {
     id:10,
-    title:"Vue",
-    image:"/images/vue.svg",
-    percent:"90%"
+    title:"SASS",
+    image:"/images/Sass.svg",
+    percent:"60%"
   },
 ]
 

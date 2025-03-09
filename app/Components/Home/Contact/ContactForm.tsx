@@ -2,45 +2,44 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
-import { Box, Button, TextField, InputAdornment, Stack } from "@mui/material";
+import { Box, Button, TextField, InputAdornment, Stack, InputLabel, MenuItem, Select, SelectChangeEvent } from "@mui/material";
 import PersonIcon from "@mui/icons-material/Person";
 import EmailIcon from "@mui/icons-material/Email";
-import InputLabel from "@mui/material/InputLabel";
-import MenuItem from "@mui/material/MenuItem";
-import Select from "@mui/material/Select";
 
 
 
 const ContactForm = () => {
-  const form = useRef();
+  const form = useRef<HTMLFormElement>(null);
   const [tech, setTech] = useState("");
   const [isSent, setIsSent] = useState(false);
 
-  const handleChange = (event) => {
+  
+  const handleChange = (event: SelectChangeEvent) => {
     setTech(event.target.value);
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    emailjs
-      .sendForm(
-        "service_h47i3re",        // Replace with your Service ID
-        "template_xv30v5t",       // Replace with your Template ID
-        form.current,
-        "wQKzlegMqt9a2-gNX"            // Replace with your User ID
-      )
-      .then(
-        (result) => {
-          console.log(result.text);
-          setIsSent(true);
-          e.target.reset(); // Clear form after submission
-          setTimeout(() => setIsSent(false), 5000); // Reset success message
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    if (form.current) {
+      emailjs
+        .sendForm(
+          "service_h47i3re",
+          "template_xv30v5t",
+          form.current,
+          "wQKzlegMqt9a2-gNX"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            setIsSent(true);
+            e.currentTarget.reset();
+            setTimeout(() => setIsSent(false), 5000);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    }
   };
 
   return (
@@ -50,7 +49,7 @@ const ContactForm = () => {
         data-aos-anchor-placement="top-center"
         className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold"
       >
-        Let's Work Together!
+        Let&apos;s Work Together!
       </h1>
       <p
         data-aos="fade-right"
@@ -66,7 +65,7 @@ const ContactForm = () => {
               <Stack spacing={1}>
                 <TextField
                   name="from_name"
-                  sx={{ border: "2px solid white",input: { color: "white" }, }}
+                  sx={{ border: "2px solid white", input: { color: "white" } }}
                   placeholder="First name"
                   type="text"
                   InputProps={{
@@ -80,7 +79,7 @@ const ContactForm = () => {
 
                 <TextField
                   name="last_name"
-                  sx={{ border: "2px solid white" ,input: { color: "white" },}}
+                  sx={{ border: "2px solid white", input: { color: "white" } }}
                   placeholder="Last name"
                   type="text"
                   variant="outlined"
@@ -95,7 +94,7 @@ const ContactForm = () => {
 
                 <TextField
                   name="email"
-                  sx={{ border: "2px solid white",input: { color: "white" }, }}
+                  sx={{ border: "2px solid white", input: { color: "white" } }}
                   placeholder="Email"
                   type="email"
                   variant="outlined"
@@ -116,7 +115,7 @@ const ContactForm = () => {
                 </InputLabel>
                 <Select
                   name="technology"
-                  sx={{ border: "2px solid white", color: "white",input: { color: "white" }, }}
+                  sx={{ border: "2px solid white", color: "white" }}
                   labelId="demo-simple-select-label"
                   id="demo-simple-select"
                   value={tech}
@@ -128,7 +127,7 @@ const ContactForm = () => {
 
                 <TextField
                   name="message"
-                  sx={{ border: "2px solid white",input: { color: "white" }, }}
+                  sx={{ border: "2px solid white", input: { color: "white" } }}
                   placeholder="Write Message"
                   type="text"
                   variant="outlined"

@@ -20,6 +20,7 @@ const Project = () => {
                data-aos-easing="ease-in-sine" key={project.id} className="s-dow bg--950 p-2 rounded-lg ">
                 <Link href={project.url} target="_blank">
                    <Image src={project.image} alt="project" className="w-full rounded-lg" width={300} height={200}/>
+                   <h2 className="text-center py-3">{project.name}</h2>
                 </Link>
 
                </div>
