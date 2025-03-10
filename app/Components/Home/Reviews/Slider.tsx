@@ -36,7 +36,7 @@ const ClientSlider = () => {
     >
       {clientReviews.map((review) => (
         <div key={review.image}>
-          <h1>{review.name}</h1>
+          <h1 className="ml-5">{review.name}</h1>
           <ReviewCard review={review} />
         </div>
       ))}

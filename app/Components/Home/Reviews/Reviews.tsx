@@ -4,7 +4,7 @@ import Slider from './Slider'
 const Reviews = () => {
   return (
     <>
-    <div className='pt-15 pb-15 bg-[#050709]'>
+    <div className='pt-15 pb-15 bg-[#ececec]'>
     <div className="flex justify-center text-white">
         <h2 className="about-heading bg-heading">
           Client <span style={{ color: "blue", fontSize: "35px" }}>R</span>eviews

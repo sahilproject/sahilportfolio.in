@@ -6,14 +6,15 @@ import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#0f0715] overflow-hidden relative">
+    <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#F2F2F2]  overflow-hidden relative">
       <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 ">
           {/* text content  */}
           <div>
             <h1
+             
               data-aos="fade-right"
-              className="text-2xl md:text-3xl lg:text-4xl mb-6 text-gray-300 font-semibold"
+              className="text-2xl md:text-3xl lg:text-4xl mb-6 font-semibold"
             >
               I am {baseInfo.name}
             </h1>
@@ -26,17 +27,18 @@ const Hero = () => {
             </h1>
             <p
               data-aos="fade-up"
-              className="mt-6 text-sm md:text-base text-white text-opacity-60"
+              className="mt-6 text-sm md:text-base text-gray text-opacity-60"
             >
               {baseInfo.description}
             </p>
             <button
               data-aos="fade-up"
-              className="md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-al duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex item-center space-x-2 "
+              className="md:px-8 md:py-2.5 px-6 py-1.5 text-black font-semibold text-sm md:text-lg transition-al duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex item-center space-x-2 "
               style={{
+                color:"white",
                 height: "100%",
                 background:
-                  "linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%)",
+               "linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0%, rgb(20, 171, 252) 50%, rgba(255,255,255,0) 100%)",
               }}
             >
               <Link
@@ -50,7 +52,7 @@ const Hero = () => {
             </button>
             <button
               data-aos="fade-right"
-              className="md:px-10 md:py-3 px-8 py-3 my-3 text-blue-800 font-semibold sm:text-base text-sm bg-white transition-all duration-200 rounded-lg overflow-hidden"
+              className="hire-me md:px-10 md:py-3 px-8 py-3 my-3  font-semibold  sm:text-base text-sm  transition-all duration-200 rounded-lg overflow-hidden"
             >
               <Link href={"mailto:sahilrahaman585@gmail.com"}>
                 <span className="inline-block animate-slide">Hire me</span>
@@ -61,7 +63,7 @@ const Hero = () => {
           {/* image  */}
           <div
             data-aos="zoom-out-down"
-            className="mx-auto hidden lg:block rounded-[1rem] border-[3.5px] border-blue-950 overflow-x-hidden"
+            className="mx-auto hidden lg:block rounded-[1rem]  overflow-x-hidden"
           >
             <Image
               src={baseInfo.profilePic}

@@ -1,10 +1,18 @@
 @import "tailwindcss";
 
 .nav-links {
-    color: #ffffff;
+    color: black;
     position: relative;
     text-decoration: none;
 };
+/* bg-[#F2F2F2] */
+/* bg-[#ececec] */
+
+/* style={{
+    height: "100%",
+    background:
+      "linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.3) 50%, rgba(255,255,255,0) 100%)",
+  }} */
 
 .nav-links::after {
     content: '';
@@ -21,16 +29,20 @@
     color: skyblue;
     width: 100%;
 };
-
+.hire-me{
+    background: linear-gradient(to left, #1dc3fa 0%, #f76fb3 100%);
+    color: white;
+    font-size: 18px;
+}
 .text-bg{
-    background-image: linear-gradient(to right , #ffffff 0%,#6539bc 100%  );
+    background-image: linear-gradient(90deg, rgb(64, 202, 253) 0%, rgb(255, 76, 76) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 };
 .bg-heading {
     text-align: center;
-    border-radius: 15px 0px 15px 0px;
+    border-radius: 30px;
     padding: 7px 40px;
     background: linear-gradient(to left, #1dc3fa 0%, #f76fb3 100%);
 }

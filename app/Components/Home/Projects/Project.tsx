@@ -6,13 +6,13 @@ import React from "react";
 const Project = () => {
   return (
     <>
-    <div className="pt-15 pb-15 bg-[black] text-white">
+    <div className="pt-15 pb-15 bg-[#ececec] text-white">
       <div className="flex justify-center">
         <h2 className="about-heading bg-heading">
           My <span style={{ color: "blue", fontSize: "35px" }}>P</span>rojects
         </h2>
       </div>
-       <div className=" w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center">
+       <div className="text-black w-[80%] mx-auto mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-center">
           {
             projectsInfo.map((project)=>{
                return <div data-aos="flip-right"

@@ -16,14 +16,14 @@ type props ={
 const Nav = ({openNav}:props) => {
   return (
     <>
-    <div className="fixed h-[13vh] z-[10] bg-[#0f0715] w-full ">
+    <div className="fixed h-[13vh] z-[10] bg-[#F2F2F2] w-full ">
       <div className="flex items-center h-full justify-between w-[-95%] sm:w-[90%] xl:w-[80%] mx-auto">
        {/* logo  */}
        <h1 className="text-center ml-[1.5rem] sm:ml-0 text-bg text-1xl sm:text-4xl md:text-5xl lg:text-2xl pt-4  xl:text-3xl font-bold md:leading-[3.5rem] xl:leading
-        -[10rem] text-white">SNAPPYWEB</h1>
+        -[10rem] ">SNAPPYWEB</h1>
       {/* nav links  */}
       <div className="flex items-center space-x-10">
-        <div className="hidden lg:flex items-center space-x-8">
+        <div className="hidden lg:flex items-center space-x-8 text-gray">
          {
           navlinks.map((navlink)=>{
             return <Link key={navlink.id} href={navlink.url}>

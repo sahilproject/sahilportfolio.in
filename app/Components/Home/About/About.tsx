@@ -8,7 +8,7 @@ import Image from "next/image";
 const About = () => {
   return (
     <>
-    <div className="pt-10 pb-10 bg-[#050709] text-white ">
+    <div className="pt-10 pb-10 bg-[#ececec] text-white ">
       <div className="flex justify-center" >
         <h2 className="about-heading bg-heading">
           <span>About </span>
@@ -28,22 +28,22 @@ const About = () => {
         <div className="grid grid-cols-2 gap-16 items-center lg:mx-auto">
         <div data-aos="fade-left">
             <Image src={"/images/customer.webp"} alt="image" width={80} height={90} className="mx-auto"/>
-            <p className="mt-3 font-bold text-xl text-white text-center">{aboutInfo.client}</p>
+            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.client}</p>
             <p className="text-base sm:text-lg text-gray-400 text-center">Satisfied Customer</p>
         </div>
         <div data-aos="fade-left">
             <Image src={"/images/experience.webp"} alt="image" width={80} height={90} className="mx-auto"/>
-            <p className="mt-3 font-bold text-xl text-white text-center">{aboutInfo.client}</p>
+            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.client}</p>
             <p className="text-base sm:text-lg text-gray-400 text-center">Years Exprience</p>
         </div>
         <div data-aos="fade-left">
             <Image src={"/images/completed.webp"} alt="image" width={80} height={90} className="mx-auto"/>
-            <p className="mt-3 font-bold text-xl text-white text-center">{aboutInfo.client}</p>
+            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.client}</p>
             <p className="text-base sm:text-lg text-gray-400 text-center">Completed Project</p>
         </div>
         <div data-aos="fade-left">
             <Image src={"/images/rocket.webp"} alt="image" width={80} height={90} className="mx-auto"/>
-            <p className="mt-3 font-bold text-xl text-white text-center">{aboutInfo.client}</p>
+            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.client}</p>
             <p className="text-base sm:text-lg text-gray-400 text-center">Website Live</p>
         </div>
       </div>

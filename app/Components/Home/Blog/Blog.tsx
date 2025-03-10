@@ -5,7 +5,7 @@ import BlogCard from './BlogCard'
 const Blog = () => {
   return (
     <>
-    <div className='pt-14 pb-14 bg-[#0f0715]'>
+    <div className='pt-14 pb-14 bg-[#F2F2F2]'>
     <div className="flex justify-center text-white">
         <h2 className="about-heading bg-heading">
           <span style={{ color: "blue", fontSize: "35px" }}>B</span>
