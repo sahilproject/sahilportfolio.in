@@ -6,7 +6,7 @@ import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="w-full pt-[4vh] md:pt-[12vh] h-screen bg-[#F2F2F2]  overflow-hidden relative">
+<div className="w-full pt-[29vh]  md:pt-[12vh] h-screen bg-[#F2F2F2] overflow-hidden relative">
       <div className="flex justify-center flex-col w-4/5 h-full mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 ">
           {/* text content  */}
@@ -14,7 +14,7 @@ const Hero = () => {
             <h1
              
               data-aos="fade-right"
-              className="text-2xl md:text-3xl lg:text-4xl mb-6 font-semibold"
+              className="text-2xl md:text-3xl  lg:text-4xl mb-6 font-semibold"
             >
               I am {baseInfo.name}
             </h1>
@@ -63,7 +63,7 @@ const Hero = () => {
           {/* image  */}
           <div
             data-aos="zoom-out-down"
-            className="mx-auto hidden lg:block rounded-[1rem]  overflow-x-hidden"
+            className="mx-auto lg:block rounded-[1rem]  overflow-x-hidden"
           >
             <Image
               src={baseInfo.profilePic}

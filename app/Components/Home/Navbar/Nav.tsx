@@ -19,7 +19,7 @@ const Nav = ({openNav}:props) => {
     <div className="fixed h-[13vh] z-[10] bg-[#F2F2F2] w-full ">
       <div className="flex items-center h-full justify-between w-[-95%] sm:w-[90%] xl:w-[80%] mx-auto">
        {/* logo  */}
-       <h1 className="text-center ml-[1.5rem] sm:ml-0 text-bg text-1xl sm:text-4xl md:text-5xl lg:text-2xl pt-4  xl:text-3xl font-bold md:leading-[3.5rem] xl:leading
+       <h1 className="text-center ml-[2.5rem] mb-[0.7rem] sm:ml-0 text-bg text-1xl sm:text-4xl md:text-5xl lg:text-2xl pt-4  xl:text-3xl font-bold md:leading-[3.5rem] xl:leading
         -[10rem] ">SNAPPYWEB</h1>
       {/* nav links  */}
       <div className="flex items-center space-x-10">
@@ -56,7 +56,7 @@ const Nav = ({openNav}:props) => {
           </button>
           
           {/* menu icon  */}
-          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-white lg:hidden"/>
+          <HiBars3BottomRight onClick={openNav} className="w-8 h-8 mr-[1rem] cursor-pointer text-black lg:hidden"/>
         </div>
       </div>
     </div>
