@@ -14,10 +14,10 @@ Passionate about designing visually appealing and user-friendly interfaces, I am
 skills in a collaborative environment. I consider myself a responsible and organized individual, looking
 forward to gaining my first professional experience in frontend development and contributing to
 innovative web projects .`,
-  client: "40+",
-  exprience: "3+",
-  project: "200+",
-  website: "100+",
+  client: "2+",
+  exprience: "1",
+  project: "3+",
+  website: "3+",
 };
 export const servicesInfo = [
   {
@@ -219,21 +219,21 @@ export const clientReviews=[
 export const blogs=[
   {
     id:1,
-    title:"Top web Development Trends to Watch in 2024",
-    summary:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. In perspiciatis quae placeat tenetur fugit recusandae molestias sunt impedit.",
-    image:"/images/b1.webp"
+    title:"AI-Powered Web Development: Revolutionizing User Experiences in 2025",
+    summary:"Explore how artificial intelligence is transforming web development.",
+    image:"/images/ai.jpg"
   },
   {
     id:2,
-    title:"Top web Development Trends to Watch in 2024",
-    summary:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. In perspiciatis quae placeat tenetur fugit recusandae molestias sunt impedit.",
-    image:"/images/b2.webp"
+    title:"The Rise of Serverless Architecture: Simplifying Web Development in 2025",
+    summary:"Discover the benefits of serverless computing and how it’s reshaping backend development.",
+    image:"/images/server.jpg"
   },
   {
     id:3,
-    title:"Top web Development Trends to Watch in 2024",
-    summary:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. In perspiciatis quae placeat tenetur fugit recusandae molestias sunt impedit.",
-    image:"/images/b3.webp"
+    title:"Immersive Web Design with WebAssembly and WebGPU in 2025",
+    summary:"Learn how these technologies are enhancing web performance.",
+    image:"/images/web.avif"
   },
 ]
 

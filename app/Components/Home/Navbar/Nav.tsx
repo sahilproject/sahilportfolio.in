@@ -16,7 +16,7 @@ type props ={
 const Nav = ({openNav}:props) => {
   return (
     <>
-    <div className="fixed h-[13vh] z-[10] bg-[#F2F2F2] w-full ">
+    <div className="fixed h-[12vh] z-[10] bg-[#F2F2F2] w-full ">
       <div className="flex items-center h-full justify-between w-[-95%] sm:w-[90%] xl:w-[80%] mx-auto">
        {/* logo  */}
        <h1 className="text-center ml-[2.5rem] mb-[0.7rem] sm:ml-0 text-bg text-1xl sm:text-4xl md:text-5xl lg:text-2xl pt-4  xl:text-3xl font-bold md:leading-[3.5rem] xl:leading
@@ -33,23 +33,23 @@ const Nav = ({openNav}:props) => {
          </div>
       </div>
       {/* hire btn  */}
-        <div className="flex items-center space-x-4" >
-          <button  data-aos="fade-down" className=" text-blue-800 font-semibold sm:text-base text-sm p-1  bg-white rounded-lg">
+        <div className="flex items-center space-x-3" >
+          <button  data-aos="fade-down" className=" text-blue-800 font-semibold sm:text-base text-sm p-2  bg-white rounded-lg">
           <Link href={"https://www.linkedin.com/in/sahil-rahaman-2612a1299/"}>
             <FaLinkedin  />
           </Link>
           </button>
-          <button  data-aos="fade-down" className=" text-blue-800 font-semibold sm:text-base text-sm p-1  bg-white rounded-lg">
+          <button  data-aos="fade-down" className=" text-blue-800 font-semibold sm:text-base text-sm p-2  bg-white rounded-lg">
           <Link href={"https://github.com/dashboard"}>
             <FaGithub />
           </Link>
           </button>
-          <button  data-aos="fade-down" className=" text-blue-800 font-semibold sm:text-base text-sm p-1 bg-white rounded-lg">
+          <button  data-aos="fade-down" className=" text-blue-800 font-semibold sm:text-base text-sm p-2 bg-white rounded-lg">
           <Link href={"https://www.instagram.com/sahilzayn._?igsh=MWYxNjM1ejYxd3FzZg=="}>
             <FaInstagram />
           </Link>
           </button>
-          <button data-aos="fade-down" className=" text-blue-800 font-semibold sm:text-base text-sm p-1 bg-white rounded-lg">
+          <button data-aos="fade-down" className=" text-blue-800 font-semibold sm:text-base text-sm p-2 bg-white rounded-lg">
           <Link href={"https://www.facebook.com/profile.php?id=100013273689316"}>
             <FaFacebook />
           </Link>

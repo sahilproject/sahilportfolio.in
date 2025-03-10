@@ -33,17 +33,17 @@ const About = () => {
         </div>
         <div data-aos="fade-left">
             <Image src={"/images/experience.webp"} alt="image" width={80} height={90} className="mx-auto"/>
-            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.client}</p>
+            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.exprience}</p>
             <p className="text-base sm:text-lg text-gray-400 text-center">Years Exprience</p>
         </div>
         <div data-aos="fade-left">
             <Image src={"/images/completed.webp"} alt="image" width={80} height={90} className="mx-auto"/>
-            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.client}</p>
+            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.project}</p>
             <p className="text-base sm:text-lg text-gray-400 text-center">Completed Project</p>
         </div>
         <div data-aos="fade-left">
             <Image src={"/images/rocket.webp"} alt="image" width={80} height={90} className="mx-auto"/>
-            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.client}</p>
+            <p className="mt-3 font-bold text-xl text-black text-center">{aboutInfo.website}</p>
             <p className="text-base sm:text-lg text-gray-400 text-center">Website Live</p>
         </div>
       </div>

@@ -14,13 +14,13 @@ const Hero = () => {
             <h1
              
               data-aos="fade-right"
-              className="text-2xl md:text-3xl  lg:text-4xl mb-6 font-semibold"
+              className="text-2xl md:text-3xl lg:text-4xl mb-6 font-semibold typewriter-loop overflow-hidden whitespace-nowrap"
             >
               I am {baseInfo.name}
             </h1>
             <h1
               data-aos="fade-left"
-              className="text-bg text-3xl sm:text-4xl md:text-5xl lg:text-7xl  xl:text-7xl font-bold md:leading-[3.5rem] xl:leading
+              className="shining-text text-bg text-3xl sm:text-4xl md:text-5xl lg:text-7xl  xl:text-7xl font-bold md:leading-[3.5rem] xl:leading
                 -[14rem] text-white"
             >
               {baseInfo.position}
@@ -33,7 +33,7 @@ const Hero = () => {
             </p>
             <button
               data-aos="fade-up"
-              className="md:px-8 md:py-2.5 px-6 py-1.5 text-black font-semibold text-sm md:text-lg transition-al duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex item-center space-x-2 "
+              className=" md:px-8 md:py-2.5 px-6 py-1.5 text-black font-semibold text-sm md:text-lg transition-al duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900 flex item-center space-x-2 "
               style={{
                 color:"white",
                 height: "100%",
@@ -63,7 +63,7 @@ const Hero = () => {
           {/* image  */}
           <div
             data-aos="zoom-out-down"
-            className="mx-auto lg:block rounded-[1rem]  overflow-x-hidden"
+            className="hero-img mx-auto lg:block rounded-[1rem]  overflow-x-hidden"
           >
             <Image
               src={baseInfo.profilePic}

@@ -21,7 +21,7 @@
     bottom: 0;
     width: 0;
     height: 2px; 
-    background-color: #ffb624;
+    background-color: #1dc3fa;
     transition: width 0.3s ease-in-out;
 };
 
@@ -42,8 +42,8 @@
 };
 .bg-heading {
     text-align: center;
-    border-radius: 30px;
-    padding: 7px 40px;
+    border-radius: 15px 0px 15px 0px;
+    padding: 6px 40px;
     background: linear-gradient(to left, #1dc3fa 0%, #f76fb3 100%);
 }
 @keyframes slide {
@@ -54,3 +54,57 @@
   .animate-slide {
     animation: slide 1s infinite;
   }
+
+ /* Continuous shining effect for the text */
+.shining-text {
+  position: relative;
+  display: inline-block;
+  background: linear-gradient(90deg, rgb(64, 202, 253) 0%, rgb(255, 38, 136) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200%;
+  animation: continuous-shine 4s infinite linear;
+}
+
+@keyframes continuous-shine {
+  0% {
+    background-position: 200%;
+  }
+  100% {
+    background-position: -200%;
+  }
+}
+
+
+
+/* Continuous letter-by-letter typing effect */
+.typewriter-loop {
+  position: relative;
+  animation: typewriter-loop 4s steps(18, end) infinite, blink-caret 0.75s  infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid black; /* Cursor effect */
+}
+
+/* Typing and deleting effect */
+@keyframes typewriter-loop {
+  0%, 100% {
+    width: 0;
+  }
+  50% {
+    width: 65%;
+  }
+}
+
+/* Blinking cursor effect */
+@keyframes blink-caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.hero-img{
+  box-shadow:0px 0px 7px 2px rgb(196, 196, 196);
+}
+
+
