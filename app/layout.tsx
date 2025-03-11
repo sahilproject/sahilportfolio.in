@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
-import Responsive from "./Components/Home/Navbar/Responsive";
-import Footer from "./Components/Home/Footer/Footer";
+import Responsive from "./Navbar/Responsive";
+import Footer from "./Footer/Footer";
 
 const font =Sora({
   weight:["100","200","300","400","500","600","700","800"],
