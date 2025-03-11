@@ -2,6 +2,8 @@ import React from "react";
 import "./About.css";
 import { aboutInfo } from "@/Data/data";
 import Image from "next/image";
+import Link from "next/link";
+import { FaDownload } from "react-icons/fa";
 
 
 
@@ -48,6 +50,26 @@ const About = () => {
         </div>
       </div>
       </div>
+      <div data-aos="fade-left" className="flex justify-center text-[blue] pt-7 text-bold ">
+        <h3><span className="text-2xl shining-text">All about me !</span><span><button
+              data-aos="fade-up"
+              className=" md:px-8 md:py-2.5 px-6 py-1.5 text-black font-semibold text-sm md:text-lg transition-al duration-200 rounded-lg mt-2 bg-blue-700 hover:bg-blue-900 flex item-center space-x-2 "
+              style={{
+                color:"white",
+                background:
+               "linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0%, rgb(50, 213, 0) 50%, rgba(255,255,255,0) 100%)",
+              }}
+            >
+              <Link
+                href={
+                  "https://drive.google.com/file/d/1Cy0fO_QtQF_zNN3RGz6RzDW54XSWNA-7/view?usp=sharing"
+                }
+              >
+                <span className="cursor-pointer">See CV</span>
+              </Link>
+              <FaDownload />
+            </button></span></h3> 
+        </div>
     </div>
       
       
