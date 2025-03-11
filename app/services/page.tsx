@@ -1,12 +1,12 @@
 import { servicesInfo } from '@/Data/data'
-import ServiceCard from "../Services/ServiceCard"
+import ServiceCard from "./ServiceCard"
 
 
 const Services = () => {
   return (
     <>
-    <div className='pt-14 pb-14 bg-[#F2F2F2] text-white'>
-      <div className="flex justify-center ">
+    <div className='pt-22 pb-18 bg-[#F2F2F2] text-white'>
+      <div data-aos="fade-up" className="flex justify-center ">
         <h2 className="about-heading bg-heading">
           <span style={{color:"blue",fontSize:"36px"}}>S</span>ervices
         </h2>

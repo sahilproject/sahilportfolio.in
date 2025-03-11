@@ -10,8 +10,8 @@ import { FaDownload } from "react-icons/fa";
 const About = () => {
   return (
     <>
-    <div className="pt-10 pb-10 bg-[#ececec] text-white ">
-      <div className="flex justify-center" >
+    <div className="pt-25 pb-10 bg-[#ececec] text-white ">
+      <div data-aos="fade-up" className="flex justify-center" >
         <h2 className="about-heading bg-heading">
           <span>About </span>
           <span style={{ color: "blue", fontSize: "35px" }}>m</span>

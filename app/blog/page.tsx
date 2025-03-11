@@ -6,7 +6,7 @@ const Blog = () => {
   return (
     <>
     <div className='pt-14 pb-14 bg-[#F2F2F2]'>
-    <div className="flex justify-center text-white">
+    <div data-aos="fade-up" className="flex justify-center text-white">
         <h2 className="about-heading bg-heading">
           <span style={{ color: "blue", fontSize: "35px" }}>B</span>
           <span>log</span>

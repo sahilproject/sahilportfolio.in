@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <>
     <div className='pt-15 pb-16 bg-[#F2F2F2]'>
-    <div className="flex justify-center text-white">
+    <div data-aos="fade-up" className="flex justify-center text-white">
         <h2 className="about-heading bg-heading">
           <span style={{color:"blue",fontSize:"36px"}}>S</span>kills
         </h2>

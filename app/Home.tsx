@@ -1,13 +1,13 @@
 "use client"
 import { useEffect } from "react"
-import About from "./About/About"
-import Blog from "./Blog/Blog"
-import Contact from "./Contact/Contact"
+import About from "./about/page"
+import Blog from "./blog/page"
+import Contact from "./contact/page"
 import Hero from "./Hero/Hero"
-import Project from "./Projects/Project"
-import Reviews from "./Reviews/Reviews"
-import Services from "./Services/Services"
-import Skills from "./Skills/Skills"
+import Project from "./projects/page"
+import Reviews from "./reviews/page"
+import Services from "./services/page"
+import Skills from "./skills/page"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 

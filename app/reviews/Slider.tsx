@@ -1,7 +1,7 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import ReviewCard from "./ReviewCard";  
 import { clientReviews } from "@/Data/data";
+import ReviewCard from "./ReviewCard";
 
 
 const responsive = {
