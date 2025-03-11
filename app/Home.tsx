@@ -9,8 +9,7 @@ import Skills from "././services/page"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Services from "././services/page"
-import Reviews from "./Reviews/Reviews"
-
+import Reviews from "@/app/Reviews/Reviews"
 
 const Home = () => {
 
