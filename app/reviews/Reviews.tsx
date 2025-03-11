@@ -1,6 +1,7 @@
 import React from 'react'
 import Slider from './Slider'
 
+
 const Reviews = () => {
   return (
     <>
