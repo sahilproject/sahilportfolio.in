@@ -40,6 +40,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 };
+
 .bg-heading {
     text-align: center;
     border-radius: 15px 0px 15px 0px;

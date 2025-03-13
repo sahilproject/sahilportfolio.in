@@ -15,7 +15,6 @@ type props ={
 
 
 const ReviewCard = ({review}:props) => {
-    // destructure props 
   return (
 
     <div className='rounded-md overflow-hidden bg-[#6fa8dc] m-4 text-white'>

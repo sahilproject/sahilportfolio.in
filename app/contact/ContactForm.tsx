@@ -42,8 +42,9 @@ const ContactForm = () => {
     }
   };
 
+
   return (
-    <div className="bg-[#140c1c] rounded-lg p-3 sm:p-6">
+    <div className=" rounded-lg p-3 sm:p-6">
       <h1
         data-aos="fade-right"
         data-aos-anchor-placement="top-center"
@@ -53,24 +54,24 @@ const ContactForm = () => {
       </h1>
       <p
         data-aos="fade-right"
-        className="text-gray-200 mt-3 lg:text-base text-xs md:text-sm"
+        className="text-black mt-3 lg:text-base text-xs md:text-sm"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quo!
+        Let's collaborate to build a dynamic website! Teamwork sparks fresh ideas, creativity, and success.
       </p>
 
-      <div className="cont mt-5" data-aos="fade-right">
+      <div className="cont mt-5 " data-aos="fade-right">
         <Box sx={{ m: "auto" }}>
-          <div className="cont-box">
+          <div className="cont-box contact-border">
             <form ref={form} onSubmit={sendEmail}>
               <Stack spacing={1}>
                 <TextField
                   name="from_name"
-                  sx={{ border: "2px solid white", input: { color: "white" } }}
+                  sx={{  input: { color: "black" } }}
                   placeholder="First name"
                   type="text"
                   InputProps={{
                     startAdornment: (
-                      <InputAdornment position="start" sx={{ color: "white" }}>
+                      <InputAdornment position="start" sx={{ color: "gray" }}>
                         <PersonIcon />
                       </InputAdornment>
                     ),
@@ -79,13 +80,13 @@ const ContactForm = () => {
 
                 <TextField
                   name="last_name"
-                  sx={{ border: "2px solid white", input: { color: "white" } }}
+                  sx={{ input: { color: "black" } }}
                   placeholder="Last name"
                   type="text"
                   variant="outlined"
                   InputProps={{
                     startAdornment: (
-                      <InputAdornment position="start" sx={{ color: "white" }}>
+                      <InputAdornment position="start" sx={{ color: "gray" }}>
                         <PersonIcon />
                       </InputAdornment>
                     ),
@@ -94,13 +95,13 @@ const ContactForm = () => {
 
                 <TextField
                   name="email"
-                  sx={{ border: "2px solid white", input: { color: "white" } }}
+                  sx={{  input: { color: "black" } }}
                   placeholder="Email"
                   type="email"
                   variant="outlined"
                   InputProps={{
                     startAdornment: (
-                      <InputAdornment position="start" sx={{ color: "white" }}>
+                      <InputAdornment position="start" sx={{ color: "gray" }}>
                         <EmailIcon />
                       </InputAdornment>
                     ),
@@ -109,13 +110,13 @@ const ContactForm = () => {
 
                 <InputLabel
                   id="demo-simple-select-label"
-                  sx={{ color: "white" }}
+                  sx={{ color: "black" }}
                 >
                   Select Technology
                 </InputLabel>
                 <Select
                   name="technology"
-                  sx={{ border: "2px solid white", color: "white" }}
+                  sx={{ color: "black" }}
                   labelId="demo-simple-select-label"
                   id="demo-simple-select"
                   value={tech}
@@ -127,7 +128,7 @@ const ContactForm = () => {
 
                 <TextField
                   name="message"
-                  sx={{ border: "2px solid white", input: { color: "white" } }}
+                  sx={{  input: { color: "black" } }}
                   placeholder="Write Message"
                   type="text"
                   variant="outlined"
