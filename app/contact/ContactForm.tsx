@@ -56,7 +56,7 @@ const ContactForm = () => {
         data-aos="fade-right"
         className="text-black mt-3 lg:text-base text-xs md:text-sm"
       >
-        Let&apos;s collaborate to build a dynamic website! Teamwork sparks fresh ideas, creativity, and success.
+        Let`&apos;`s collaborate to build a dynamic website! Teamwork sparks fresh ideas, creativity, and success.
       </p>
 
       <div className="cont mt-5 " data-aos="fade-right">
