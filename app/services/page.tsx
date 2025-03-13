@@ -5,7 +5,7 @@ import ServiceCard from "./ServiceCard"
 const Services = () => {
   return (
     <>
-    <div className='pt-22 pb-18 bg-[#F2F2F2] text-white'>
+    <div id='services' className='pt-22 pb-18 bg-[#F2F2F2] text-white'>
       <div data-aos="fade-up" className="flex justify-center ">
         <h2 className="about-heading bg-heading">
           <span style={{color:"blue",fontSize:"36px"}}>S</span>ervices

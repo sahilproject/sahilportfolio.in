@@ -6,7 +6,7 @@ import React from "react";
 const Project = () => {
   return (
     <>
-    <div className="pt-23 pb-18 bg-[#ececec] text-white">
+    <div id="projects" className="pt-23 pb-18 bg-[#ececec] text-white">
       <div data-aos="fade-up" className="flex justify-center">
         <h2 className="about-heading bg-heading">
           My <span style={{ color: "blue", fontSize: "35px" }}>P</span>rojects
