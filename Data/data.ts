@@ -73,53 +73,51 @@ export const servicesInfo = [
 export const projectsInfo = [
   {
     id: 1,
+    image: "/images/nexttick.png",
+    url: "https://nexttick.vercel.app/",
+    name:"NextTick",
+    gitlurl:"https://github.com/sahilproject/nexttick"
+  },
+  {
+    id: 2,
     image: "/images/p-1.png",
     url: "https://aquamarine-stardust-ef5057.netlify.app/",
     name:"ACE2KING"
   },
   
   {
-    id: 2,
+    id: 3,
     image: "/images/adda.png",
     url: "https://addacafe.netlify.app/",
-    name:"Adda"
-  },
-  {
-    id: 3,
-    image: "/images/weather.png",
-    url: "https://weatherapppc.netlify.app/",
-    name:"AboHaoua"
+    name:"Adda",
+    gitlurl:"https://github.com/sahilproject/adda"
   },
   {
     id: 4,
+    image: "/images/weather.png",
+    url: "https://weatherapppc.netlify.app/",
+    name:"AboHaoua",
+    gitlurl:"https://github.com/sahilproject/weather.app"
+  },
+  {
+    id: 5,
     image: "/images/p4.webp",
     url: "",
     name:"Demo"
   },
   {
-    id: 5,
+    id: 6,
     image: "/images/p5.webp",
     url: "",
     name:"Demo"
   },
   {
-    id: 6,
+    id: 7,
     image: "/images/p6.webp",
     url: "",
     name:"Demo"
-  },
-  {
-    id: 7,
-    image: "/images/p7.webp",
-    url: "",
-    name:"Demo"
-  },
-  {
-    id: 8,
-    image: "/images/p8.webp",
-    url: "",
-     name:"Demo"
-  },
+  }
+  
 ];
 
 export const skills=[
