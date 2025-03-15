@@ -17,7 +17,7 @@ type props ={
 const ReviewCard = ({review}:props) => {
   return (
 
-    <div className='rounded-md overflow-hidden bg-[#6fa8dc] m-4 text-white'>
+    <div className='rounded-md overflow-hidden bg-[#6fa8dc] m-4 text-white ' style={{minHeight:"300px"}}>
       <div className='p-6'>
         <h2 className='text-center py-2'>Review</h2>
           <p className='text-opacity-70'>{review.review}</p>

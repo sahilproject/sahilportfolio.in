@@ -11,20 +11,20 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-12 ">
           {/* text content  */}
           <div>
-            <h1
+            <h2
              
               data-aos="fade-right"
               className="text-2xl md:text-3xl lg:text-4xl mb-6 font-semibold typewriter-loop overflow-hidden whitespace-nowrap"
             >
               I am {baseInfo.name}
-            </h1>
-            <h1
+            </h2>
+            <h2
               data-aos="fade-left"
               className="shining-text text-bg text-3xl sm:text-4xl md:text-5xl lg:text-7xl  xl:text-7xl font-bold md:leading-[3.5rem] xl:leading
                 -[14rem] text-white"
             >
               {baseInfo.position}
-            </h1>
+            </h2>
             <p
               data-aos="fade-up"
               className="mt-6 text-sm md:text-base text-gray text-opacity-60"
@@ -55,7 +55,7 @@ const Hero = () => {
               className="hire-me md:px-10 md:py-3 px-8 py-3 my-3  font-semibold  sm:text-base text-sm  transition-all duration-200 rounded-lg overflow-hidden"
             >
               <Link href={"mailto:sahilrahaman585@gmail.com"}>
-                <span className="inline-block animate-slide">Hire me</span>
+                <span className="inline-block animate-slide">Contact me</span>
               </Link>
             </button>
           </div>

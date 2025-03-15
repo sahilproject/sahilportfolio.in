@@ -5,11 +5,11 @@ import Blog from "./blog/page"
 import Contact from "./contact/page"
 import Hero from "./Hero/Hero"
 import Project from "./projects/page"
-import Skills from "././services/page"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Services from "././services/page"
 import Reviews from "./Reviews/Reviews"
+import Skills from "./skills/page"
 
 
 
@@ -33,9 +33,9 @@ useEffect(()=>{
     <div className="overflow-hidden">
       <Hero/>
       <About/>
-      <Services/>
       <Project/>
       <Skills/>
+      <Services/>
       <Reviews/>
       <Blog/>
       <Contact/>

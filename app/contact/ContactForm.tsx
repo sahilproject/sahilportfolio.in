@@ -45,18 +45,18 @@ const ContactForm = () => {
 
   return (
     <div className=" rounded-lg p-3 sm:p-6">
-      <h1
+      <h2
         data-aos="fade-right"
         data-aos-anchor-placement="top-center"
         className="text-bg text-2xl md:text-3xl lg:text-[2.5rem] font-bold"
       >
         Let&apos;s Work Together!
-      </h1>
+      </h2>
       <p
         data-aos="fade-right"
         className="text-black mt-3 lg:text-base text-xs md:text-sm"
       >
-        Let`&apos;`s collaborate to build a dynamic website! Teamwork sparks fresh ideas, creativity, and success.
+        Let&apos;s collaborate to build a dynamic website! Teamwork sparks fresh ideas, creativity, and success.
       </p>
 
       <div className="cont mt-5 " data-aos="fade-right">

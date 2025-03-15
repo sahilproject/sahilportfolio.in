@@ -1,4 +1,3 @@
-import { title } from "process";
 
 export const baseInfo = {
   name: "Sahil Rahaman",
@@ -14,60 +13,43 @@ Passionate about designing visually appealing and user-friendly interfaces, I am
 skills in a collaborative environment. I consider myself a responsible and organized individual, looking
 forward to gaining my first professional experience in frontend development and contributing to
 innovative web projects .`,
-  client: "2+",
+  client: "3+",
   exprience: "1",
-  project: "3+",
+  project: "4+",
   website: "3+",
 };
 export const servicesInfo = [
   {
     id: 1,
     title: "Web Application",
-    description: "forward to gaining my first professional",
+    description: "I offer web application development services, creating interactive and user-friendly platforms tailored to client needs.",
     icon: "/images/s1.webp",
   },
   {
     id: 2,
     title: "E-commerce Website",
-    description: "forward to gaining my first professional",
+    description: "I provide eCommerce website development services, creating seamless, secure, and user-friendly online stores for businesses.",
     icon: "/images/s2.webp",
-  },
-  {
-    id: 3,
-    title: "API Integration",
-    description: "forward to gaining my first professional",
-    icon: "/images/s3.webp",
-  },
-  {
-    id: 4,
-    title: "User Interfaces",
-    description: "forward to gaining my first professional",
-    icon: "/images/s4.webp",
-  },
-  {
-    id: 5,
-    title: "Database Solutions",
-    description: "forward to gaining my first professional",
-    icon: "/images/s5.webp",
-  },
-  {
-    id: 6,
-    title: "Real-Time Features",
-    description: "forward to gaining my first professional",
-    icon: "/images/s6.webp",
-  },
-  {
-    id: 7,
-    title: "Speed Optimization",
-    description: "forward to gaining my first professional",
-    icon: "/images/s7.webp",
   },
   {
     id: 8,
     title: "Website Management",
-    description: "forward to gaining my first professional",
+    description: "I provide website management services using Hostinger, ensuring smooth performance, security, and updates for your site.",
     icon: "/images/s8.webp",
   },
+  {
+    id: 4,
+    title: "User Interfaces",
+    description: "I offer user interface modification services, giving websites and apps a fresh, modern, and visually appealing new look.",
+    icon: "/images/s4.webp",
+  },
+  {
+    id: 3,
+    title: "API Integration",
+    description: "I provide API integration services, seamlessly connecting applications to enhance functionality and streamline data exchange .",
+    icon: "/images/s3.webp",
+  }
+ 
 ];
 
 export const projectsInfo = [
@@ -98,25 +80,8 @@ export const projectsInfo = [
     url: "https://weatherapppc.netlify.app/",
     name:"AboHaoua",
     gitlurl:"https://github.com/sahilproject/weather.app"
-  },
-  {
-    id: 5,
-    image: "/images/p4.webp",
-    url: "",
-    name:"Demo"
-  },
-  {
-    id: 6,
-    image: "/images/p5.webp",
-    url: "",
-    name:"Demo"
-  },
-  {
-    id: 7,
-    image: "/images/p6.webp",
-    url: "",
-    name:"Demo"
   }
+  
   
 ];
 
@@ -185,31 +150,22 @@ export const skills=[
 
 export const clientReviews=[
   {
-    name:"Rohit Bhattachraya",
-    review:"Clean design with smooth navigation, showcasing skills effectively. Adding more interactive elements could enhance user .",
+    name:"Shreya Raj",
+    review:"Your project features well managed ,and interactive UI .Keep it up , Good Work .",
     rating:4.9,
-    profession:"Propoerty Dealer",
-    image:"/images/u1.webp"
+    image:"/images/shereya-raj.jpeg"
   },
   {
-    name:"Rahul Roy",
-    review:"User-friendly interface with efficient search and filters. Slightly faster load times would improve the shopping experience",
+    name:"Esha kar",
+    review:"This page is so satisfying and how perfectly aligned all the auth and pop up over there. By the way, the work is appraisal.❤️😊",
     rating:4.7,
-    profession:"Resturant Owner",
-    image:"/images/u2.webp"
+    image:"/images/eshakar.jpeg"
   },
+  
   {
-    name:"Mohin Babu",
-    review:"Visually appealing with clear analytics and charts. More customization options could make it even better.",
-    rating:4.8,
-    profession:"Influencer",
-    image:"/images/u3.webp"
-  },
-  {
-    name:"John Doe",
+    name:"Jenifa",
     review:"Minimalist design with practical features like drag-and-drop. A dark mode option would be a nice addition.",
     rating:4.3,
-    profession:"Garments Dealer",
     image:"/images/u4.webp"
   }
 ]

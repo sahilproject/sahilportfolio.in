@@ -10,7 +10,7 @@ import { FaGithub } from "react-icons/fa";
 const Project = () => {
   return (
     <>
-      <div id="projects" className="pt-23 pb-18 bg-[#ececec] text-white">
+      <div id="projects" className="pt-23 pb-18 bg-[#F2F2F2] text-white">
         <div data-aos="fade-up" className="flex justify-center">
           <h2 className="about-heading bg-heading">
             My <span style={{ color: "blue", fontSize: "35px" }}>P</span>rojects
